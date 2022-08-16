@@ -1,0 +1,169 @@
+/* Header */
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #F1F3FF;
+}
+
+.btn-success {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: medium;
+    padding: 0.5rem;
+}
+
+.text {
+    margin: 0;
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+.content {
+    padding-top: 2%;
+}
+
+.icon {
+    align-self: center;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+
+/* Banner */
+
+.banner {
+    /* Primary/DarkBlue/04 */
+    background: #0D28A6;
+    border-radius: 13px;
+}
+
+.banner h3 {
+    color: white;
+}
+
+.banner p {
+    color: white;
+    max-width: 50%;
+    align-self: center;
+    margin-left: 25%;
+    padding-top: 1%;
+}
+
+.banner button {
+    margin-top: 1rem;
+}
+
+
+/* Carousel */
+
+.carousel {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.card-carousel {
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.card-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    margin: 5% 5%;
+}
+
+.description {
+    margin: 0 6%;
+}
+
+.description img {
+    max-width: 18%;
+}
+
+.description p {
+    font-size: 90%;
+}
+
+.description h6 {
+    font-size: 90%;
+}
+
+.owl-nav {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.owl-next,
+.owl-prev {
+    margin: 0 0.5rem;
+}
+
+
+/* Media Query */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .person {
+        width: 100%;
+    }
+    .card-carousel {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .description img {
+        margin-left: 42%;
+    }
+    .copyright {
+        padding-top: 1rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .mobil {
+        width: 100%;
+    }
+    .copyright {
+        padding-top: 1rem;
+    }
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+
+@media (min-width:768px) and (max-width: 991.98px) {
+    .person {
+        padding-left: 5rem;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+
+/* // Large devices (desktops, less than 1439px) */
+
+@media (max-width: 1439px) {
+    .mobil {
+        width: 100%;
+    }
+}
